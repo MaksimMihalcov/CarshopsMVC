@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<SerializableMOffice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SerializableOfficeList>
+    <SerialazibleOffice>
+      <Brand>BMW</Brand>
+      <SerializableCarsList>
+        <CarItem>
+          <ItemId>0</ItemId>
+          <Brand>BMW</Brand>
+          <Model>SUPERHEROOO</Model>
+          <Price>11</Price>
+          <StockBalance>22</StockBalance>
+          <OfficeId>19</OfficeId>
+        </CarItem>
+      </SerializableCarsList>
+    </SerialazibleOffice>
+    <SerialazibleOffice>
+      <Brand>RENO</Brand>
+      <SerializableCarsList />
+    </SerialazibleOffice>
+    <SerialazibleOffice>
+      <Brand>BMW99</Brand>
+      <SerializableCarsList />
+    </SerialazibleOffice>
+  </SerializableOfficeList>
+</SerializableMOffice>

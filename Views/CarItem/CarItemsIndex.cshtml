@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Carshops_MVC.CarItem>
+@{
+    ViewData["Title"] = "Cars";
+}
+
+<h1>Cars</h1>
+
+<p>
+    <a asp-action="Create" asp-route-officeid="@ViewBag.OfficeId">Add new car</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ItemId)</th>
+            <th>@Html.DisplayNameFor(model => model.Brand)</th>
+            <th>@Html.DisplayNameFor(model => model.Model)</th>
+            <th>@Html.DisplayNameFor(model => model.Price)</th>
+            <th>@Html.DisplayNameFor(model => model.StockBalance)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ItemId)</td>
+                <td>@Html.DisplayFor(modelItem => item.Brand)</td>
+                <td>@Html.DisplayFor(modelItem => item.Model)</td>
+                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                <td>@Html.DisplayFor(modelItem => item.StockBalance)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-itemid="@item.ItemId" asp-route-officeid="@ViewBag.OfficeId">Edit</a> |
+                    <a asp-action="Delete" asp-route-itemid="@item.ItemId" asp-route-officeid="@ViewBag.OfficeId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bfaae48b-2905-45f2-8bff-05f51e9d7580": {
+      "ProjectGuid": "bfaae48b-2905-45f2-8bff-05f51e9d7580",
+      "DisplayName": "Carshops_MVC",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "ef09e8a4-131c-4796-8d00-c3e487a03835": {
+      "ProjectGuid": "ef09e8a4-131c-4796-8d00-c3e487a03835",
+      "DisplayName": "TEST_ASP_APP",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
